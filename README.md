@@ -1,4 +1,4 @@
-<h1>adrian dorado</h1>
+<h1>ADRIAN DORADO</h1>
 <h3>A passionate frontend developer from Philippines</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adria296&label=Profile%20views&color=0e75b6&style=flat" alt="adria296" /> </p>
