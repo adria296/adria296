@@ -32,6 +32,12 @@ const adrian = {
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Hello2x_pix.gif" width="60">
 
+### 🐍 My GitHub Contributions
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/adria296/adria296/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
+</p>
+
 <em><b>I enjoy learning, building, and improving</b> through every project I make.
 I'm always open to <b>meeting new people, learning new technologies, and growing as a developer.</b> 🚀</em>
 
