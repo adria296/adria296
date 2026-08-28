@@ -1,5 +1,5 @@
 <h2>Hi, I'm Adrian Dorado! 👋</h2>
-<img align='right' src="http://giphy.com/gifs/guy-pombo-pombodioclin-gs2h1cErPMc9chptGp" width="230">
+<img align='right' src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="230">
 
 <p><em>
 BSIT Student & Aspiring Software/Web Developer 💻<br>
