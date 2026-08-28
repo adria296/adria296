@@ -1,4 +1,4 @@
-<h2>Hi, I'm Adrian Dorado! 👋</h2>
+<img width="676" height="614" alt="image" src="https://github.com/user-attachments/assets/3419e88b-24b2-440e-afd7-4db7e0f3360e" /><h2>Hi, I'm Adrian Dorado! 👋</h2>
 
 <img align="right" src="https://www.image2url.com/r2/default/gifs/1787885305197-09367947-efde-47ff-9e55-f3d5ed543a1a.gif" width="230">
 
@@ -32,11 +32,8 @@ const adrian = {
 
 <img src="https://raw.githubusercontent.com/adria296/adria296/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
 
-### 🐍 My GitHub Contributions
+<img width="676" height="614" alt="image" src="https://github.com/user-attachments/assets/c7053a0d-3fb6-4f4d-862e-046e28cb27fa" />
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/adria296/adria296/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
-</p>
 
 <em><b>I enjoy learning, building, and improving</b> through every project I make.
 I'm always open to <b>meeting new people, learning new technologies, and growing as a developer.</b> 🚀</em>
