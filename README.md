@@ -91,12 +91,22 @@ More projects coming soon as I continue learning and building. 🚀
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adria296&theme=default" />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adria296&theme=tokyonight"
+    alt="Adrian's GitHub Profile Details"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=adria296&theme=default" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adria296&theme=default" />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=adria296&theme=tokyonight"
+    alt="Adrian's GitHub Stats"
+  />
+
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adria296&theme=tokyonight"
+    alt="Adrian's Most Used Languages"
+  />
 </p>
 
 ---
