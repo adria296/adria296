@@ -30,7 +30,7 @@ const adrian = {
 }
 ```
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Hello2x_pix.gif" width="60">
+<img src="https://raw.githubusercontent.com/adria296/adria296/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
 
 ### 🐍 My GitHub Contributions
 
