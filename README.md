@@ -98,15 +98,16 @@ More projects coming soon as I continue learning and building. 🚀
 </p>
 
 <p align="center">
-  <img>
+  <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=adria296&theme=tokyonight"
-    alt="Adrian's GitHub Stats" 
-    </img>
-    
-  <img>
+    alt="Adrian's GitHub Stats"
+    width="49%"
+  />
+  <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adria296&theme=tokyonight"
     alt="Adrian's Most Used Languages"
-    </img>
+    width="49%"
+  />
 </p>
 
 ---
