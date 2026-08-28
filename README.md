@@ -1,6 +1,6 @@
 <h2>Hi, I'm Adrian Dorado! 👋</h2>
 
-<img align="right" src="https://media1.giphy.com/media/cZ7rmKfFYOvYI/200w.gif" width="230">
+<img align="right" src="https://www.image2url.com/r2/default/gifs/1787885305197-09367947-efde-47ff-9e55-f3d5ed543a1a.gif" width="230">
 
 <p><em>
 BSIT Student & Aspiring Software/Web Developer 💻<br>
