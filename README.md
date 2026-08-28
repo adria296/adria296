@@ -32,8 +32,6 @@ const adrian = {
 
 <img src="https://raw.githubusercontent.com/adria296/adria296/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
 
-<img width="676" height="614" alt="image" src="https://github.com/user-attachments/assets/c7053a0d-3fb6-4f4d-862e-046e28cb27fa" />
-
 
 <em><b>I enjoy learning, building, and improving</b> through every project I make.
 I'm always open to <b>meeting new people, learning new technologies, and growing as a developer.</b> 🚀</em>
