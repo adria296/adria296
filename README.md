@@ -91,11 +91,12 @@ More projects coming soon as I continue learning and building. 🚀
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adria296&show_icons=true&hide_border=true" alt="Adrian's GitHub Stats">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adria296&theme=default" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adria296&layout=compact&hide_border=true" alt="Adrian's Top Languages">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=adria296&theme=default" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adria296&theme=default" />
 </p>
 
 ---
@@ -107,8 +108,6 @@ More projects coming soon as I continue learning and building. 🚀
 </p>
 
 ---
-
-<img src="https://www.image2url.com/r2/default/gifs/1787885428022-696ff26c-1339-4360-8cfd-be690f59750a.gif" width="60">
 
 <em>
 <b>I enjoy learning, building, and improving</b> through every project I make.
