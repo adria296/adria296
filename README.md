@@ -7,7 +7,7 @@ BSIT Student & Aspiring Software/Web Developer 💻<br>
 Currently learning Frontend Development & Programming
 </em></p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/)
+[![GitHub](https://www.image2url.com/r2/default/gifs/1787885428022-696ff26c-1339-4360-8cfd-be690f59750a.gif)
 
 ### <img src="https://media1.giphy.com/media/cZ7rmKfFYOvYI/100w.gif" width="50"> A little more about me...
 
