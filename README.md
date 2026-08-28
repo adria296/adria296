@@ -3,10 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adria296&label=Profile%20views&color=0e75b6&style=flat" alt="adria296" /> </p>
 
-- 🌱 I’m currently learning **C programming and Working on improving my programming fundamentals by building different projects and practicing how to solve problems on my own. Right now, I'm focusing on understanding how variables, conditions, loops, functions, arrays, strings, structures, pointers, and file handling work instead of just memorizing code. I'm also trying to understand what happens behind the code and why certain things work the way they do. My goal is to become more comfortable with programming logic and eventually use what I learn in C as a foundation for learning other languages, especially JavaScript and backend development.**
-
-- 💬 Ask me about **HTML, CSS, TD, C**
-
 - 📫 How to reach me **doradov36@gmail.com**
 
 - ⚡ Fun fact **I sometimes get stuck on a problem, but I like figuring out why something isn't working.**
