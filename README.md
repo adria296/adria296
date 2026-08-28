@@ -7,6 +7,8 @@ BSIT Student & Aspiring Software/Web Developer 💻<br>
 Currently learning Frontend Development & Programming
 </em></p>
 
+[![GitHub adria296](https://img.shields.io/github/followers/adria296?label=follow&style=social)](https://github.com/adria296)
+
 ### <img src="https://www.image2url.com/r2/default/gifs/1787885428022-696ff26c-1339-4360-8cfd-be690f59750a.gif" width="50"> A little more about me...
 
 ```javascript
