@@ -1,261 +1,415 @@
-```aura width=860 height=230 link="https://collectioneur.github.io/readme-aura/"
+# 👋 Hi, I'm Adrian Dorado
+
+```aura width=860 height=155 link="https://github.com/adria296"
 <div style={{
-  width:'100%', height:'100%',
-  background:'#07070b',
+  width:'100%',
+  height:'100%',
+  background:'#08080d',
+  border:'1px solid rgba(120,80,220,.22)',
+  borderRadius:14,
   display:'flex',
   alignItems:'center',
-  fontFamily:'Inter',
   position:'relative',
   overflow:'hidden',
-  borderRadius:18,
-  border:'1px solid rgba(130,90,255,0.25)'
+  fontFamily:'Inter'
 }}>
 
-  <style>{`
-    @keyframes drift {
-      0%,100% { transform:translateX(0) translateY(0); opacity:.45; }
-      50% { transform:translateX(120px) translateY(-25px); opacity:.8; }
-    }
-
-    @keyframes drift2 {
-      0%,100% { transform:translateX(0); opacity:.3; }
-      50% { transform:translateX(-140px); opacity:.65; }
-    }
-
-    @keyframes pulse {
-      0%,100% { opacity:.25; }
-      50% { opacity:.65; }
-    }
-
-    #orb1 { animation:drift 10s ease-in-out infinite; }
-    #orb2 { animation:drift2 13s ease-in-out infinite; }
-    #orb3 { animation:pulse 6s ease-in-out infinite; }
-
-    .cursor {
-      animation:pulse 1s steps(2) infinite;
-    }
-  `}</style>
-
-  <!-- Background -->
-  <svg width="860" height="230"
-       style={{position:'absolute',top:0,left:0}}>
-
-    <defs>
-
-      <radialGradient id="purple">
-        <stop offset="0%" stopColor="rgba(125,70,255,.45)" />
-        <stop offset="100%" stopColor="rgba(125,70,255,0)" />
-      </radialGradient>
-
-      <radialGradient id="blue">
-        <stop offset="0%" stopColor="rgba(30,120,255,.35)" />
-        <stop offset="100%" stopColor="rgba(30,120,255,0)" />
-      </radialGradient>
-
-      <linearGradient id="line">
-        <stop offset="0%" stopColor="rgba(130,90,255,0)" />
-        <stop offset="50%" stopColor="rgba(130,90,255,.35)" />
-        <stop offset="100%" stopColor="rgba(130,90,255,0)" />
-      </linearGradient>
-
-    </defs>
-
-    <ellipse
-      id="orb1"
-      cx="160"
-      cy="210"
-      rx="260"
-      ry="150"
-      fill="url(#purple)"
-    />
-
-    <ellipse
-      id="orb2"
-      cx="720"
-      cy="40"
-      rx="230"
-      ry="150"
-      fill="url(#blue)"
-    />
-
-    <ellipse
-      id="orb3"
-      cx="500"
-      cy="180"
-      rx="170"
-      ry="100"
-      fill="url(#purple)"
-    />
-
-    <rect
-      x="0"
-      y="188"
-      width="860"
-      height="1"
-      fill="url(#line)"
-    />
-
-  </svg>
-
-  <!-- Avatar -->
   <div style={{
     position:'absolute',
-    left:42,
-    top:65,
-    width:100,
-    height:100,
+    width:380,
+    height:150,
+    left:240,
+    bottom:-110,
+    borderRadius:'50%',
+    background:'radial-gradient(circle, rgba(100,40,255,.45), rgba(60,20,180,0))',
+    filter:'blur(22px)'
+  }} />
+
+  <div style={{
+    position:'absolute',
+    width:300,
+    height:130,
+    right:-50,
+    bottom:-100,
+    borderRadius:'50%',
+    background:'radial-gradient(circle, rgba(0,110,255,.35), rgba(0,70,200,0))',
+    filter:'blur(20px)'
+  }} />
+
+  <div style={{
+    marginLeft:38,
+    width:78,
+    height:78,
     borderRadius:50,
+    padding:3,
     background:'linear-gradient(135deg,#7c3aed,#2563eb)',
     display:'flex',
     alignItems:'center',
-    justifyContent:'center',
-    boxShadow:'0 0 35px rgba(100,60,255,.35)'
+    justifyContent:'center'
   }}>
-
     <img
       src={github?.user?.avatarUrl ?? 'https://github.com/adria296.png'}
-      width={92}
-      height={92}
-      style={{borderRadius:46}}
+      width={72}
+      height={72}
+      style={{borderRadius:50}}
     />
-
   </div>
 
-  <!-- Content -->
   <div style={{
+    marginLeft:22,
     display:'flex',
     flexDirection:'column',
-    marginLeft:168,
-    gap:9,
-    zIndex:10
+    gap:6
   }}>
 
     <div style={{
       display:'flex',
-      fontSize:36,
+      fontSize:30,
       fontWeight:800,
       color:'#ffffff',
-      letterSpacing:'-1px'
+      letterSpacing:'-0.8px'
     }}>
       Adrian Dorado
     </div>
 
     <div style={{
       display:'flex',
-      fontSize:15,
-      color:'rgba(190,180,230,.75)',
-      letterSpacing:'.2px'
-    }}>
-      BSIT Student • Aspiring Software & Web Developer
-    </div>
-
-    <div style={{
-      display:'flex',
-      alignItems:'center',
-      gap:7,
-      marginTop:3,
       fontSize:13,
-      color:'rgba(150,130,220,.85)'
+      color:'rgba(180,170,220,.75)'
     }}>
-      <span style={{color:'#8b5cf6'}}>&gt;</span>
-      <span>building • learning • improving</span>
-      <span class="cursor" style={{color:'#8b5cf6'}}>▌</span>
+      BSIT Student • Aspiring Software & Web Developer 💻
     </div>
 
     <div style={{
       display:'flex',
       gap:7,
-      marginTop:4,
-      flexWrap:'wrap'
+      marginTop:3
     }}>
 
-      {[
-        'JavaScript',
-        'C',
-        'Node.js',
-        'Frontend'
-      ].map(function(tag, i) {
-
+      {['JavaScript','C','Node.js','Frontend'].map(function(tag,i) {
         return (
-          <div key={tag + i} style={{
+          <div key={tag+i} style={{
             display:'flex',
-            padding:'5px 11px',
-            borderRadius:8,
-            background:'rgba(120,80,255,.10)',
-            border:'1px solid rgba(130,90,255,.25)',
-            color:'rgba(215,205,255,.85)',
-            fontSize:11,
+            padding:'4px 10px',
+            borderRadius:12,
+            background:'rgba(100,60,220,.12)',
+            border:'1px solid rgba(120,80,230,.3)',
+            color:'rgba(210,200,255,.85)',
+            fontSize:10,
             fontWeight:600
           }}>
             {tag}
           </div>
         );
-
       })}
 
     </div>
 
   </div>
 
-  <!-- Small status -->
+</div>
+
+<div style={{
+  width:'100%',
+  height:'100%',
+  background:'#08080d',
+  border:'1px solid rgba(120,80,220,.18)',
+  borderRadius:14,
+  display:'flex',
+  alignItems:'center',
+  justifyContent:'space-around',
+  fontFamily:'Inter',
+  position:'relative',
+  overflow:'hidden'
+}}>
+
   <div style={{
     position:'absolute',
-    right:24,
-    bottom:17,
+    width:300,
+    height:100,
+    left:20,
+    bottom:-80,
+    background:'radial-gradient(circle,rgba(110,40,255,.3),transparent)',
+    filter:'blur(15px)'
+  }}/>
+
+  <div style={{
+    position:'absolute',
+    width:300,
+    height:100,
+    right:20,
+    bottom:-80,
+    background:'radial-gradient(circle,rgba(20,100,255,.25),transparent)',
+    filter:'blur(15px)'
+  }}/>
+
+  <div style={{
     display:'flex',
+    flexDirection:'column',
     alignItems:'center',
-    gap:7,
-    fontSize:10,
-    color:'rgba(170,160,200,.45)'
+    width:'30%'
   }}>
+
     <div style={{
-      width:6,
-      height:6,
-      borderRadius:3,
-      background:'#7c3aed'
-    }} />
-    learning mode
+      display:'flex',
+      fontSize:24,
+      fontWeight:800,
+      color:'#a78bfa'
+    }}>
+      {String(github?.user?.followers ?? 0)}
+    </div>
+
+    <div style={{
+      display:'flex',
+      fontSize:9,
+      color:'rgba(180,170,200,.5)',
+      letterSpacing:'2px'
+    }}>
+      FOLLOWERS
+    </div>
+
+  </div>
+
+  <div style={{
+    width:1,
+    height:55,
+    background:'rgba(255,255,255,.08)'
+  }}/>
+
+  <div style={{
+    display:'flex',
+    flexDirection:'column',
+    alignItems:'center',
+    width:'30%'
+  }}>
+
+    <div style={{
+      display:'flex',
+      fontSize:24,
+      fontWeight:800,
+      color:'#60a5fa'
+    }}>
+      {String(github?.user?.publicRepos ?? 0)}
+    </div>
+
+    <div style={{
+      display:'flex',
+      fontSize:9,
+      color:'rgba(180,170,200,.5)',
+      letterSpacing:'2px'
+    }}>
+      REPOSITORIES
+    </div>
+
+  </div>
+
+  <div style={{
+    width:1,
+    height:55,
+    background:'rgba(255,255,255,.08)'
+  }}/>
+
+  <div style={{
+    display:'flex',
+    flexDirection:'column',
+    alignItems:'center',
+    width:'30%'
+  }}>
+
+    <div style={{
+      display:'flex',
+      fontSize:24,
+      fontWeight:800,
+      color:'#c084fc'
+    }}>
+      {String(github?.user?.totalStars ?? 0)}
+    </div>
+
+    <div style={{
+      display:'flex',
+      fontSize:9,
+      color:'rgba(180,170,200,.5)',
+      letterSpacing:'2px'
+    }}>
+      TOTAL STARS
+    </div>
+
   </div>
 
 </div>
-```
 
-```aura width=860 height=28 link="https://collectioneur.github.io/readme-aura/"
 <div style={{
+  width:'100%',
+  height:'100%',
+  background:'#08080d',
+  border:'1px solid rgba(120,80,220,.18)',
+  borderRadius:14,
+  display:'flex',
+  flexDirection:'column',
+  justifyContent:'center',
+  padding:'0 28px',
+  boxSizing:'border-box',
+  position:'relative',
+  overflow:'hidden',
+  fontFamily:'Inter'
+}}>
+
+  <div style={{
+    position:'absolute',
+    width:420,
+    height:140,
+    left:230,
+    bottom:-110,
+    background:'radial-gradient(circle,rgba(100,30,220,.35),transparent)',
+    filter:'blur(20px)'
+  }}/>
+
+  <div style={{
+    display:'flex',
+    fontSize:9,
+    color:'rgba(160,140,210,.5)',
+    letterSpacing:'3px',
+    marginBottom:13
+  }}>
+    TECH STACK
+  </div>
+
+  <div style={{
+    display:'flex',
+    alignItems:'center',
+    marginBottom:12
+  }}>
+
+    <div style={{
+      display:'flex',
+      width:85,
+      fontSize:9,
+      color:'#60a5fa',
+      letterSpacing:'1px'
+    }}>
+      LANGUAGES
+    </div>
+
+    <div style={{
+      display:'flex',
+      gap:8
+    }}>
+
+      {['C','JavaScript','HTML','CSS'].map(function(tag,i) {
+        return (
+          <div key={tag+i} style={{
+            display:'flex',
+            padding:'5px 13px',
+            borderRadius:7,
+            background:'rgba(30,25,50,.8)',
+            border:'1px solid rgba(130,100,210,.25)',
+            color:'rgba(220,215,240,.8)',
+            fontSize:10
+          }}>
+            {tag}
+          </div>
+        );
+      })}
+
+    </div>
+
+  </div>
+
+  <div style={{
+    display:'flex',
+    alignItems:'center'
+  }}>
+
+    <div style={{
+      display:'flex',
+      width:85,
+      fontSize:9,
+      color:'#60a5fa',
+      letterSpacing:'1px'
+    }}>
+      TOOLS
+    </div>
+
+    <div style={{
+      display:'flex',
+      gap:8
+    }}>
+
+      {['Node.js','Tailwind CSS','Git','GitHub','VS Code'].map(function(tag,i) {
+        return (
+          <div key={tag+i} style={{
+            display:'flex',
+            padding:'5px 13px',
+            borderRadius:7,
+            background:'rgba(30,25,50,.8)',
+            border:'1px solid rgba(130,100,210,.25)',
+            color:'rgba(220,215,240,.8)',
+            fontSize:10
+          }}>
+            {tag}
+          </div>
+        );
+      })}
+
+    </div>
+
+  </div>
+
+</div>
+
+<div style={{
+  width:'100%',
+  height:'100%',
+  background:'#08080d',
+  border:'1px solid rgba(120,80,220,.18)',
+  borderRadius:14,
+  display:'flex',
+  alignItems:'center',
+  justifyContent:'center',
+  fontFamily:'Inter',
+  position:'relative',
+  overflow:'hidden'
+}}>
+
+  <div style={{
+    display:'flex',
+    alignItems:'center',
+    gap:12,
+    color:'rgba(205,195,230,.8)',
+    fontSize:13
+  }}>
+
+    <span style={{
+      color:'#8b5cf6',
+      fontSize:18
+    }}>
+      &gt;
+    </span>
+
+    <span>
+      Learning JavaScript, C, Node.js & building projects
+    </span>
+
+    <span style={{
+      color:'#60a5fa'
+    }}>
+      ▌
+    </span>
+
+  </div>
+
+</div>
+
+<div style={{
+  width:'100%',
+  height:'100%',
   display:'flex',
   justifyContent:'center',
   alignItems:'center',
-  width:'100%',
-  height:'100%',
   fontFamily:'Inter',
-  fontSize:11,
+  fontSize:10,
   color:'rgba(150,140,190,.45)',
-  letterSpacing:'.6px'
+  letterSpacing:'.5px'
 }}>
-  <span>crafted by adria296 • powered by readme-aura</span>
+  <span>&gt; learning • building • improving • repeat_</span>
 </div>
-```
-
-````
-
-### What I changed
-
-- **Adrian Dorado** instead of `repo?.name`
-- Your actual developer direction: **Software & Web Developer**
-- Your current technologies: **JavaScript, C, Node.js, Frontend**
-- Added a little terminal-style `>` effect
-- Added a subtle animated cursor
-- Purple/blue glow instead of the common huge rainbow blobs
-- Added a small **"learning mode"** status
-- Cleaner rounded cards and less visual clutter
-- Your GitHub avatar automatically loads from `github.com/adria296.png`
-
-After replacing `readme.source.md`, run:
-
-```bash
-npx readme-aura build
-````
-
-Then open your generated `README.md` to preview it.
-
-If you like it, **then** we'll commit and push it to GitHub.
