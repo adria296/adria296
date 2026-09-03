@@ -48,41 +48,41 @@
    <defs>
      <radialGradient id="g1" cx="50%" cy="50%" r="50%">
        <stop offset="0%" stopColor="rgba(210, 20, 20, 0.72)" />
-       <stop offset="40%" stopColor="rgba(90,15,180,0.35)" />
-       <stop offset="70%" stopColor="rgba(90,15,180,0)" />
+       <stop offset="40%" stopColor="rgba(180, 15, 15, 0.35)" />
+       <stop offset="70%" stopColor="rgba(180, 15, 15, 0)" />
      </radialGradient>
      <radialGradient id="g2" cx="50%" cy="50%" r="50%">
        <stop offset="0%" stopColor="rgba(255, 40, 40, 0.6)" />
-       <stop offset="45%" stopColor="rgba(30,50,200,0.25)" />
-       <stop offset="70%" stopColor="rgba(30,50,200,0)" />
+       <stop offset="45%" stopColor="rgba(200, 30, 30, 0.25)" />
+       <stop offset="70%" stopColor="rgba(200, 30, 30, 0)" />
      </radialGradient>
      <radialGradient id="g3" cx="50%" cy="50%" r="50%">
        <stop offset="0%" stopColor="rgba(255, 0, 0, 0.45)" />
        <stop offset="50%" stopColor="rgba(220, 0, 0, 0.18)" />
-       <stop offset="70%" stopColor="rgba(0,100,220,0)" />
+       <stop offset="70%" stopColor="rgba(220, 0, 0, 0)" />
      </radialGradient>
      <radialGradient id="g4" cx="50%" cy="50%" r="50%">
        <stop offset="0%" stopColor="rgba(230, 0, 0, 0.32)" />
-       <stop offset="70%" stopColor="rgba(0,190,230,0)" />
+       <stop offset="70%" stopColor="rgba(230, 0, 0, 0)" />
      </radialGradient>
      <radialGradient id="g5" cx="50%" cy="50%" r="50%">
        <stop offset="0%" stopColor="rgba(200, 30, 30, 0.38)" />
-       <stop offset="70%" stopColor="rgba(90,30,200,0)" />
+       <stop offset="70%" stopColor="rgba(200, 30, 30, 0)" />
      </radialGradient>
      <radialGradient id="g6" cx="50%" cy="50%" r="50%">
        <stop offset="0%" stopColor="rgba(255, 30, 30, 0.55)" />
-       <stop offset="45%" stopColor="rgba(130,20,220,0.22)" />
-       <stop offset="70%" stopColor="rgba(130,20,220,0)" />
+       <stop offset="45%" stopColor="rgba(220, 20, 20, 0.22)" />
+       <stop offset="70%" stopColor="rgba(220, 20, 20, 0)" />
      </radialGradient>
      <radialGradient id="g7" cx="50%" cy="50%" r="50%">
        <stop offset="0%" stopColor="rgba(255, 20, 20, 0.42)" />
-       <stop offset="50%" stopColor="rgba(10,40,200,0.16)" />
-       <stop offset="70%" stopColor="rgba(10,40,200,0)" />
+       <stop offset="50%" stopColor="rgba(200, 10, 10, 0.16)" />
+       <stop offset="70%" stopColor="rgba(200, 10, 10, 0)" />
      </radialGradient>
      <radialGradient id="g8" cx="50%" cy="50%" r="50%">
        <stop offset="0%" stopColor="rgba(255, 0, 0, 0.4)" />
-       <stop offset="50%" stopColor="rgba(0,130,220,0.15)" />
-       <stop offset="70%" stopColor="rgba(0,130,220,0)" />
+       <stop offset="50%" stopColor="rgba(220, 0, 0, 0.15)" />
+       <stop offset="70%" stopColor="rgba(220, 0, 0, 0)" />
      </radialGradient>
    </defs>
 
