@@ -3,7 +3,7 @@
  width: '100%', height: '100%', background: '#08080c',
  display: 'flex', alignItems: 'center', fontFamily: 'Inter',
  position: 'relative', overflow: 'hidden', borderRadius: 16,
- border: '1px solid rgba(110,80,220,0.18)'
+ border: '1px solid rgba(220, 80, 80, 0.18)'
 }}>
 
  <style>
@@ -98,7 +98,7 @@
 
  <div style={{
    position: 'absolute', left: 48, top: 52, width: 96, height: 96,
-   borderRadius: 48, background: 'linear-gradient(135deg, #6622ee, #0088ff)',
+   borderRadius: 48, background: 'linear-gradient(135deg, #ee2222, #ff3c00)',
    display: 'flex', alignItems: 'center', justifyContent: 'center',
  }}>
    <img src={(github && github.user && github.user.avatarUrl) || 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'} width={88} height={88} style={{ borderRadius: 44 }} />
