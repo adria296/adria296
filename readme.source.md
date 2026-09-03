@@ -1,6 +1,6 @@
 ```aura width=860 height=200
 
- <div style={{
+  <div style={{
 
  width: '100%', height: '100%', background: '#08080c',
 
@@ -116,7 +116,7 @@
 
        <stop offset="50%" stopColor="rgba(220, 0, 0, 0.18)" />
 
-       <stop offset="70%" stopColor="rgba(0,100,220,0)" />
+       <stop offset="70%" stopColor="rgba(220,0,0,0)" />
 
      </radialGradient>
 
@@ -240,9 +240,7 @@
 
 </div>
 
-```
 
-```aura width=860 height=140
 
 (function() {
 
@@ -348,7 +346,7 @@
 
          <radialGradient id="g1" cx="50%" cy="50%" r="50%">
 
-           <stop offset="0%" stopColor="rgba(110,20,210,0.65)" />
+           <stop offset="0%" stopColor="rgba(210,20,20,0.65)" />
 
            <stop offset="45%" stopColor="rgba(180,15,15,0.28)" />
 
@@ -358,7 +356,7 @@
 
          <radialGradient id="g2" cx="50%" cy="50%" r="50%">
 
-           <stop offset="0%" stopColor="rgba(40,70,255,0.55)" />
+           <stop offset="0%" stopColor="rgba(255,40,40,0.55)" />
 
            <stop offset="45%" stopColor="rgba(200,20,20,0.22)" />
 
@@ -446,9 +444,7 @@
 
 })()
 
-```
 
-```aura width=860 height=168
 
 (function() {
 
@@ -588,7 +584,7 @@
 
            <stop offset="0%" stopColor="rgba(240, 0, 0, 0.32)" />
 
-           <stop offset="70%" stopColor="rgba(0,185,240,0)" />
+           <stop offset="70%" stopColor="rgba(240,0,0,0)" />
 
          </radialGradient>
 
@@ -596,7 +592,7 @@
 
            <stop offset="0%" stopColor="rgba(205, 25, 25, 0.42)" />
 
-           <stop offset="70%" stopColor="rgba(100,25,205,0)" />
+           <stop offset="70%" stopColor="rgba(205,25,25,0)" />
 
          </radialGradient>
 
@@ -680,7 +676,6 @@
 
 })()
 
-```
 
 <br>
 
