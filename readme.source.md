@@ -6,117 +6,42 @@
 }}>
 
  <style>
-{`
-  @keyframes float-slow {
-    0%, 100% {
-      transform: translateX(0px);
-      opacity: 0.8;
-    }
-
-    50% {
-      transform: translateX(350px);
-      opacity: 1;
-    }
-  }
-
-  @keyframes float-medium {
-    0%, 100% {
-      transform: translateX(0px);
-      opacity: 0.7;
-    }
-
-    50% {
-      transform: translateX(-250px);
-      opacity: 1;
-    }
-  }
-
-  @keyframes float-fast {
-    0%, 100% {
-      transform: translateX(0px);
-      opacity: 0.9;
-    }
-
-    50% {
-      transform: translateX(200px);
-      opacity: 0.6;
-    }
-  }
-
-  @keyframes float-diagonal {
-    0%, 100% {
-      transform: translateX(0px);
-      opacity: 0.75;
-    }
-
-    50% {
-      transform: translateX(300px);
-      opacity: 1;
-    }
-  }
-
-  @keyframes float-wave {
-    0%, 100% {
-      transform: translateX(0px);
-      opacity: 0.65;
-    }
-
-    33% {
-      transform: translateX(-160px);
-      opacity: 0.9;
-    }
-
-    66% {
-      transform: translateX(80px);
-      opacity: 1;
-    }
-  }
-
-  @keyframes float-pulse {
-    0%, 100% {
-      transform: scale(1);
-      opacity: 0.8;
-    }
-
-    50% {
-      transform: scale(1.3);
-      opacity: 0.4;
-    }
-  }
-
-  #glow-1 {
-    animation: float-slow 8s ease-in-out infinite;
-  }
-
-  #glow-2 {
-    animation: float-medium 12s ease-in-out infinite;
-  }
-
-  #glow-3 {
-    animation: float-fast 9s ease-in-out infinite;
-  }
-
-  #glow-4 {
-    animation: float-slow 11s ease-in-out infinite reverse;
-  }
-
-  #glow-5 {
-    animation: float-medium 14s ease-in-out infinite reverse;
-  }
-
-  #glow-6 {
-    animation: float-diagonal 10s ease-in-out infinite;
-  }
-
-  #glow-7 {
-    animation: float-wave 13s ease-in-out infinite;
-  }
-
-  #glow-8 {
-    animation: float-pulse 7s ease-in-out infinite;
-  }
-`}
-</style>
+   {`
+     @keyframes float-slow {
+       0%, 100% { transform: translateX(0px); opacity: 0.8; }
+       50% { transform: translateX(350px); opacity: 1.2; }
+     }
+     @keyframes float-medium {
+       0%, 100% { transform: translateX(0px); opacity: 0.7; }
+       50% { transform: translateX(-250px); opacity: 1.1; }
+     }
+     @keyframes float-fast {
+       0%, 100% { transform: translateX(0px); opacity: 0.9; }
+       50% { transform: translateX(200px); opacity: 0.6; }
+     }
+     @keyframes float-diagonal {
+       0%, 100% { transform: translateX(0px); opacity: 0.75; }
+       50% { transform: translateX(300px); opacity: 1.0; }
+     }
+     @keyframes float-wave {
+       0%, 100% { transform: translateX(0px); opacity: 0.65; }
+       33% { transform: translateX(-160px); opacity: 0.9; }
+       66% { transform: translateX(80px); opacity: 1.0; }
+     }
+     @keyframes float-pulse {
+       0%, 100% { transform: scale(1); opacity: 0.8; }
+       50% { transform: scale(1.3); opacity: 0.4; }
+     }
+     #glow-1 { animation: float-slow 8s ease-in-out infinite; }
+     #glow-2 { animation: float-medium 12s ease-in-out infinite; }
+     #glow-3 { animation: float-fast 9s ease-in-out infinite; }
+     #glow-4 { animation: float-slow 11s ease-in-out infinite reverse; }
+     #glow-5 { animation: float-medium 14s ease-in-out infinite reverse; }
+     #glow-6 { animation: float-diagonal 10s ease-in-out infinite; }
+     #glow-7 { animation: float-wave 13s ease-in-out infinite; }
+     #glow-8 { animation: float-pulse 7s ease-in-out infinite; }
+   `}
+ </style>
 
  <svg width="860" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
    <defs>
