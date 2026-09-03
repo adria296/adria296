@@ -1,9 +1,9 @@
 <h2>Hi, I'm Adrian Dorado! 👋</h2>
 
-<p><em>
-BSIT Student & Aspiring Software/Web Developer 💻<br>
-Currently learning programming and frontend development
-</em></p>
+<p>
+  BSIT Student & Aspiring Software/Web Developer 💻<br>
+  Currently learning programming and frontend development.
+</p>
 
 <p>
   <a href="https://github.com/adria296">
@@ -15,15 +15,15 @@ Currently learning programming and frontend development
 
 ### 👨‍💻 About Me
 
-I'm a BSIT student currently learning programming and web development.
-I enjoy building small projects, experimenting with different technologies, and improving my skills as I go.
+I'm a BSIT student learning programming and web development.
+I enjoy building small projects, trying out new technologies, and improving my skills along the way.
 
-Right now, I'm mainly focused on **JavaScript, C, frontend development, and Node.js**.
+Currently learning **JavaScript, C, Node.js, and frontend development**.
 
 ### 🛠️ Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,c,nodejs,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,c,nodejs,git,github,vscode">
 </p>
 
 ---
@@ -41,20 +41,14 @@ Right now, I'm mainly focused on **JavaScript, C, frontend development, and Node
 
 ---
 
-### 🐍 My Contributions
+### 🐍 Contributions
 
 <p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/adria296/adria296/output/github-contribution-grid-snake-dark.svg">
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/adria296/adria296/output/github-contribution-grid-snake.svg">
-    <img
-      src="https://raw.githubusercontent.com/adria296/adria296/output/github-contribution-grid-snake.svg"
-      alt="GitHub Contribution Snake">
-  </picture>
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/adria296/adria296/output/github-contribution-grid-snake-dark.svg" width="100%">
 </p>
 
 ---
